@@ -382,7 +382,7 @@
                         <viewLayoutGuide key="safeArea" id="YiW-Ck-ZzX"/>
                         <userDefinedRuntimeAttributes>
                             <userDefinedRuntimeAttribute type="color" keyPath="topColor">
-                                <color key="value" red="0.1114197448" green="0.1720835268" blue="0.2039269209" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="value" red="0.10980392156862745" green="0.17254901960784313" blue="0.20392156862745098" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </userDefinedRuntimeAttribute>
                             <userDefinedRuntimeAttribute type="color" keyPath="bottomColor">
                                 <color key="value" red="0.17254901960784313" green="0.32549019607843138" blue="0.39215686274509803" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -416,7 +416,7 @@
         <scene sceneID="L0B-wX-2In">
             <objects>
                 <viewController id="EA8-7Z-4Jn" customClass="RegistrationViewController" customModule="GifySampleProject" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="bL3-Fj-WeK">
+                    <view key="view" contentMode="scaleToFill" id="bL3-Fj-WeK" customClass="GradientView" customModule="GifySampleProject" customModuleProvider="target">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -605,6 +605,26 @@
                             <constraint firstItem="pCP-79-PMq" firstAttribute="height" secondItem="bL3-Fj-WeK" secondAttribute="height" multiplier="1:10" id="Px9-Qu-TjM"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="nsg-xT-eSX"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="color" keyPath="topColor">
+                                <color key="value" red="0.10980392156862745" green="0.17254901960784313" blue="0.20392156862745098" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="bottomColor">
+                                <color key="value" red="0.17254901960784313" green="0.32549019607843138" blue="0.39215686274509803" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="startPointX">
+                                <real key="value" value="1"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="startPointY">
+                                <real key="value" value="0.5"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="endPointX">
+                                <real key="value" value="0.5"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="endPointY">
+                                <real key="value" value="1"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
                     </view>
                     <navigationItem key="navigationItem" id="bwt-0P-pfi"/>
                     <connections>
