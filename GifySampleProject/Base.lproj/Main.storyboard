@@ -12,13 +12,13 @@
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="TrendingFeedViewController" customModule="GifySampleProject" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC" customClass="GradientView" customModule="GifySampleProject" customModuleProvider="target">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="JbJ-5n-NSN">
                                 <rect key="frame" x="0.0" y="88" width="414" height="774"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="giphyCell" rowHeight="205" id="pFV-dZ-Pjy" customClass="GiphyTableViewCell" customModule="GifySampleProject" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="414" height="205"/>
@@ -41,7 +41,7 @@
                                                 </label>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zmW-hw-Zeg">
                                                     <rect key="frame" x="369" y="90" width="25" height="25"/>
-                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="25" id="dBC-p5-Spc"/>
                                                         <constraint firstAttribute="width" constant="25" id="g0P-bH-1ea"/>
@@ -49,6 +49,7 @@
                                                     <state key="normal" title="X"/>
                                                 </button>
                                             </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <constraints>
                                                 <constraint firstItem="hla-o8-4RT" firstAttribute="top" secondItem="DuF-xY-yrq" secondAttribute="topMargin" id="ACe-Mu-u0z"/>
                                                 <constraint firstItem="hla-o8-4RT" firstAttribute="leading" secondItem="DuF-xY-yrq" secondAttribute="leadingMargin" id="Bhg-iV-oy2"/>
@@ -61,6 +62,7 @@
                                                 <constraint firstItem="mNU-nF-9Pv" firstAttribute="leading" secondItem="hla-o8-4RT" secondAttribute="trailing" constant="19" id="xmx-rN-iA5"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <connections>
                                             <outlet property="btnFavorite" destination="zmW-hw-Zeg" id="dVs-LV-GJd"/>
                                             <outlet property="imgGiphy" destination="hla-o8-4RT" id="Teu-9A-bOL"/>
@@ -221,7 +223,7 @@
         <scene sceneID="v1X-oZ-bRp">
             <objects>
                 <viewController id="H69-fY-mJm" customClass="LoginViewController" customModule="GifySampleProject" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="a4k-Rx-gjq">
+                    <view key="view" contentMode="scaleToFill" id="a4k-Rx-gjq" customClass="GradientView" customModule="GifySampleProject" customModuleProvider="target">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -378,6 +380,26 @@
                             <constraint firstItem="nKh-2y-9nr" firstAttribute="leading" secondItem="YiW-Ck-ZzX" secondAttribute="leading" id="X7g-NF-uIH"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="YiW-Ck-ZzX"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="color" keyPath="topColor">
+                                <color key="value" red="0.1114197448" green="0.1720835268" blue="0.2039269209" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="bottomColor">
+                                <color key="value" red="0.17254901960784313" green="0.32549019607843138" blue="0.39215686274509803" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="startPointX">
+                                <real key="value" value="1"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="startPointY">
+                                <real key="value" value="0.5"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="endPointX">
+                                <real key="value" value="0.5"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="endPointY">
+                                <real key="value" value="1"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
                     </view>
                     <navigationItem key="navigationItem" id="vDk-D9-rds"/>
                     <connections>

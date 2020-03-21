@@ -14,6 +14,7 @@
 		CE17EB3E242595430041B5FE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CE17EB3D242595430041B5FE /* GoogleService-Info.plist */; };
 		CE17EB402425966F0041B5FE /* CommonFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE17EB3F2425966F0041B5FE /* CommonFunctions.swift */; };
 		CE17EB4224259EEC0041B5FE /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE17EB4124259EEC0041B5FE /* Constants.swift */; };
+		CE17EB8024268C700041B5FE /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE17EB7F24268C6F0041B5FE /* GradientView.swift */; };
 		CEB9A93223F5E31F0005917E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB9A93123F5E31F0005917E /* AppDelegate.swift */; };
 		CEB9A93923F5E31F0005917E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEB9A93723F5E31F0005917E /* Main.storyboard */; };
 		CEB9A93C23F5E31F0005917E /* GifySampleProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CEB9A93A23F5E31F0005917E /* GifySampleProject.xcdatamodeld */; };
@@ -46,6 +47,7 @@
 		CE17EB3D242595430041B5FE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		CE17EB3F2425966F0041B5FE /* CommonFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonFunctions.swift; sourceTree = "<group>"; };
 		CE17EB4124259EEC0041B5FE /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		CE17EB7F24268C6F0041B5FE /* GradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		CEB9A92E23F5E31F0005917E /* GifySampleProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GifySampleProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEB9A93123F5E31F0005917E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CEB9A93823F5E31F0005917E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -139,6 +141,7 @@
 		CEB9A96423F5E9A90005917E /* Others */ = {
 			isa = PBXGroup;
 			children = (
+				CE17EB7F24268C6F0041B5FE /* GradientView.swift */,
 				CEB9A96523F5EBAE0005917E /* NetworkLayer.swift */,
 				CEB9A9BF23F74EBB0005917E /* DataLayer.swift */,
 				CE17EB35242406230041B5FE /* BorderedTextField.swift */,
@@ -312,6 +315,7 @@
 				CEB9A9C023F74EBB0005917E /* DataLayer.swift in Sources */,
 				CEB9A9BB23F74BC50005917E /* Favorite+CoreDataClass.swift in Sources */,
 				CEB9A96E23F6EC8B0005917E /* GiphyModel.swift in Sources */,
+				CE17EB8024268C700041B5FE /* GradientView.swift in Sources */,
 				CEB9A9BC23F74BC50005917E /* Favorite+CoreDataProperties.swift in Sources */,
 				CEE430F623FB7C0A00C68650 /* GifFullScreenViewController.swift in Sources */,
 				CE17EB3A24241B320041B5FE /* RegistrationViewController.swift in Sources */,
