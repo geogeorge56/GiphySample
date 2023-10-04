@@ -21,7 +21,7 @@ class TrendingFeedViewController: UIViewController,UIWebViewDelegate
     let mainContext = (UIApplication.shared.delegate as! AppDelegate).managedObjectContext
     private let searchController = UISearchController(searchResultsController: nil)
     var searchText = ""
-    
+    //
     var currentIndex = -1 {
         willSet{
             self.isFetchedAll = self.currentIndex == -1 ? false : true
