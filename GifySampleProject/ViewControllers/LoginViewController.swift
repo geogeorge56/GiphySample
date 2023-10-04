@@ -15,7 +15,7 @@ class LoginViewController: UIViewController {
     @IBOutlet weak var tftEmail: BorderedTextField!
     
     @IBOutlet weak var scrollViewBotomConstraint: NSLayoutConstraint!
-   
+   //
     override func viewDidLoad()
     {
         super.viewDidLoad()
