@@ -12,7 +12,7 @@ import UIKit
 class FavoriteViewController: UIViewController {
     
     var favoritesArr = [Favorite]()
-    
+    //
     @IBOutlet weak var cvFavorites: UICollectionView!{
         didSet{
             let layout = UICollectionViewFlowLayout()
