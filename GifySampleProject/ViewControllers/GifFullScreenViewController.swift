@@ -18,7 +18,7 @@ class GifFullScreenViewController: UIViewController
     override func viewDidLoad()
     {
         super.viewDidLoad()
-        
+        //
         let url = giphy?.images.original.url
         imgGif.kf.setImage(with:URL(string:url ?? ""), placeholder:nil)
     }
