@@ -16,7 +16,7 @@ class RegistrationViewController: UIViewController{
     @IBOutlet weak var tftEmail: BorderedTextField!
     @IBOutlet weak var tftPassword: BorderedTextField!
     @IBOutlet weak var tftConfirmPassword: BorderedTextField!
-    //
+    
     @IBOutlet weak var scrollViewBottomConstraint: NSLayoutConstraint!
     override func viewDidLoad() {
         super.viewDidLoad()
