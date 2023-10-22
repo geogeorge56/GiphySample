@@ -33,7 +33,7 @@ class RegistrationViewController: UIViewController{
            self.navigationController?.setNavigationBarHidden(true, animated: false)
            
     }
-    
+    //
         /*
         * Adding listerners for showing and hiding keyboard
         */
