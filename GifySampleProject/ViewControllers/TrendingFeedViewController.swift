@@ -20,6 +20,7 @@ class TrendingFeedViewController: UIViewController,UIWebViewDelegate
     let appDelegate = UIApplication.shared.delegate as! AppDelegate
     let mainContext = (UIApplication.shared.delegate as! AppDelegate).managedObjectContext
     private let searchController = UISearchController(searchResultsController: nil)
+    
     var searchText = ""
     //
     var currentIndex = -1 {
